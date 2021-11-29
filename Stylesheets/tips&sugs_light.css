@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sacramento&display=swap');
+
+
+body {
+  margin: 0px 0px 0px 0px;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif !important;
+  overflow-x: hidden;
+}
+.Tips{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h1 {
+  font-family: 'Varela Round', sans-serif !important;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  color: #00b4ec;
+}
+
+
+#nav {
+  font-family: 'Varela Round', sans-serif !important;
+  margin-top: 0px;
+  background-color: #adb6b6;
+}
+
+.logo {
+  float: left;
+  width: 20%;
+}
+
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar {
+  float: left;
+  width: 70%;
+}
+
+.NavBarLink {
+  float: left;
+  width: 25%;
+}
+
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #0000FF;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #0000FF;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+
+/*----------------Theme-----------------*/
+
+.Light-Dark {
+  float: left;
+  width: 10%;
+}
+
+.Dark {
+  padding-top: 15px;
+  border: none !important;
+  border-radius: 50% !important;
+  outline: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.Light {
+  display: none;
+}
+/*
+.logo {
+  float: left;
+  width: 30%
+}
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar {
+  float: left;
+  width: 70%;
+}
+
+.NavBarLink {
+  float: left;
+  width: 25%
+}
+
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #0000FF;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #0000FF;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+.Light-Dark {
+  float: left;
+  width: 10%;
+}
+*/
+li.NavBarLink {
+	list-style: none;
+}
+li.mainpoints {
+  list-style-type: circle;
+}
+.types {
+  text-decoration: bold;
+  font-size: 20px;
+  color: dodgerblue;
+}
+.footer {
+  font-size:20px;
+  font-family: 'Josefin Slab';
+  background-color: #adb6b6be;
+  color: Black;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#container a {
+  color: inherit;
+  text-align: center;
+  padding-left: 0px;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  color: #337dff;
+}
+
+.vision
+{
+  font-size: 1.2em;
+}
+
+.h1
+{
+  font-size: 2em;
+}

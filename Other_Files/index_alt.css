@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sacramento&display=swap');
+
+@media screen and ( max-width: 650px ) {
+  #Temp1_a {
+    display: none;
+  }
+  #Temp2_a {
+    display: none;
+  }
+  #Temp4_a {
+    display: none;
+  }
+  #Temp5_a {
+    display: none;
+  }
+}
+
+@media screen and ( max-width: 1030px ) {
+  #Temp1_a {
+    display: none;
+  }
+  #Temp5_a {
+    display: none;
+  }
+}
+
+body {
+  margin: 0px 0px 0px 0px;
+}
+
+#left_top {
+  float: left;
+  width: 50%;
+}
+
+#name_div {
+  width: 100%;
+}
+
+.name
+{
+  top: 12%;
+  position: absolute;
+  font-size: 3em;
+  overflow: hidden;
+  font-family: 'Sacramento';
+  animation: type 4s steps(70, end); 
+  width: 3.5em;
+  padding-left: auto;
+  margin-left: calc((50% - 3em) / 2);
+}
+
+.vision
+{
+  position: absolute;
+  font-size: 30px;
+  overflow: hidden;
+  font-family: 'Josefin Slab';
+  top: calc(10% + 2.5em);
+  text-align: center;
+  width: 45%;
+  left: 2%;
+}
+
+.line
+{
+  border-left: 3px double rgba(6, 44, 124, 0.493);
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 11%;
+}
+
+#right_top {
+  float: right;
+  width: 50%;
+}
+
+li {
+	list-style: none;
+}
+
+.icon4
+{
+  position: absolute;
+  float:left;
+  left:52.5%;
+  top: 9.5vh;
+  height: 3.7em;
+  width: 3em;
+}
+
+.icon4desc
+{
+  font-size: 20px;
+  font-family: 'Josefin Slab';
+  position: absolute;
+  left: calc(52.5% + 3.5em);
+  top: 12vh;
+}
+
+.icon1
+{
+  position: absolute;
+  float:left;
+  left:52%;
+  top: calc(9.5vh + 4em);
+  height: 3em;
+  width: 3.5em;
+}
+
+.icon1desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left: calc(52% + 3.7em);
+  top: calc(12vh + 3.5em);
+}
+
+.icon2
+{
+  position: absolute;
+  float:left;
+  left:52.8%;
+  top: calc(9.5vh + 8.1em);
+  height: 2.4em;
+  width: 2.4em;
+}
+
+.icon2desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left: calc(53% + 3.2em);
+  top: calc(12vh + 6.3em);
+}
+
+.icon3
+{
+  position: absolute;
+  float:left;
+  left:53%;
+  top: calc(9.5vh + 11.6em);
+  height: 2.5em;
+  width: 2.5em;
+}
+
+.icon3desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left: calc(53% + 3.2em);
+  top: calc(12vh + 9em);
+}
+
+.click
+{
+  font-style: cursive;
+  font-family: 'Varela Round';
+  font-size: 2em;
+  color: #00b4ec;
+  position: relative;
+  transition: all 2s;
+  text-align: center;
+  top: calc(12vh + 8.5em);
+  border: 2px solid #4863a0;
+  border-radius: 10px;
+  background-color: #ffffff;
+  outline: none;
+  margin: auto;
+}
+
+.click:hover
+{
+  transform: scale(1.05);
+  background-color: #110675;
+  transition-duration: 1s;
+  color:#ffffff;
+  cursor: pointer;
+}
+
+
+@keyframes type{ 
+  from { width: 0; } 
+  to {
+    width: 300px;
+  }
+}
+
+.image1
+{
+  position: relative;
+  height: 18em;
+  top: calc(12vh + 28em);
+  left: 4.5%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move1_5;
+  animation-duration: 3s;
+  filter: brightness(65%);
+}
+
+.image2
+{
+  position: relative;
+  height: 18em;
+  top: calc(12vh + 24em);
+  left:2.25%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move2_4;
+  animation-duration: 2s;
+  z-index: 1;
+  filter: brightness(80%);
+}
+
+.image3
+{ 
+  position: relative;
+  height: 18em;
+  top: calc(12vh + 20em);
+  transition: opacity 1s, transform .2s;
+  animation-name: move3;
+  animation-duration: 1s;
+  z-index:2;
+  filter: brightness(95%);
+}
+
+.image4
+{
+  position: relative;
+  height: 18em;
+  top: calc(12vh + 24em);
+  right: 2.25%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move2_4;
+  animation-duration: 2s;
+  z-index: 1;
+  filter: brightness(80%);
+}
+
+.image5
+{
+  position: relative;
+  height: 18em;
+  top: calc(12vh + 28em);
+  right: 4.5%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move1_5;
+  animation-duration: 3s;
+  filter: brightness(65%);
+ 
+}
+
+.image1 .image2 .image3 .image4 .image5
+{
+transition: opacity 2s ease-in-out;
+}
+
+.image1:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+
+.image2:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+
+.image3:hover
+{
+transform: scale(1.25);
+z-index: 3;
+filter: brightness(100%);
+}
+
+.image4:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+.image5:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+
+@keyframes move1_5
+{
+  0%{top:0px;}
+  100%{top:calc(12vh + 28em);}
+}
+
+@keyframes move2_4
+{
+  0%{top:0px;}
+  100%{top:calc(12vh + 24em);}
+}
+
+@keyframes move3
+{
+0%{top:0px;}
+100%{top:calc(12vh + 20em);}
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}

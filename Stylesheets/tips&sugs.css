@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sacramento&display=swap');
+
+body {	
+    background-color: #0F1111;	
+  }
+
+  #navigation-bar a:hover {	
+    color: #337dff;	
+  }
+
+  .mainpoints
+  {
+    color: white;
+  }
+
+  .title
+  {
+    color: white;
+  }
+    
+  .vision
+  {
+    color: white;
+  }
+
+  .footer {
+    background-color: #363B3D !important;	
+    color: white!important;	
+  }
+
+  a:visited {
+    color: white!important;
+  }
+
+  a:active {
+    color: white!important;
+  }
+
+  a:hover {
+    color: #337dff!important;
+  }	
+  
+  /*Idea From Dark-Reader Chrome Extension*/	
+  ::-webkit-scrollbar {	
+    background-color: #202324;	
+    color: #aba499;	
+  }	
+  ::-webkit-scrollbar-thumb {	
+    background-color: #454a4d;	
+  }	
+  ::-webkit-scrollbar-thumb:hover {	
+    background-color: #575e62;	
+  }	
+  ::-webkit-scrollbar-thumb:active {	
+    background-color: #484e51;	
+  }	
+  ::-webkit-scrollbar-corner {	
+    background-color: #0F1111;	
+  }
+  
+  .info_head
+  {
+    color: #7ed7f1ce;
+  }
+
+  .links
+  {
+    color:white;
+  }
+
+body {
+  margin: 0px 0px 0px 0px;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif !important;
+  overflow-x: hidden;
+}
+
+#nav {
+  font-family: 'Varela Round', sans-serif !important;
+  margin-top: 0px;
+  background-color: #adb6b6;
+}
+
+.logo {
+  float: left;
+  height: 4em;
+}
+
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+#navigation-bar {
+  float: right;
+  width: 50%;
+}
+
+.NavBarLink {
+  float: left;
+  width: 33.33%;
+}
+
+#navigation-bar li:hover a::before {
+  right: 0;
+  left: 0;
+}
+#navigation-bar a {
+  color: #848484;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #0000FF;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #0000FF;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+
+li.NavBarLink {
+	list-style: none;
+}
+li.mainpoints {
+  list-style-type: circle;
+}
+
+.Tips{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.headline {
+  position: relative;
+  top: 0.5em;
+  font-family: 'Varela Round', sans-serif !important;
+  text-align: center;
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  color: #7ed7f1ce;
+}
+
+
+.types {
+  text-decoration: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+.footer {
+  font-size:20px;
+  font-family: Varela Round;
+  background-color: #adb6b6be;
+  color: Black;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  color: #337dff;
+}
+
+.vision
+{
+  font-size: 1.2em;
+}
+

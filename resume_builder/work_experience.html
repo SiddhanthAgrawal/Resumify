@@ -1,0 +1,84 @@
+<html>
+
+<head>
+	<link href="work_experience.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<!--<a href="https://home-page.resumebuilder.repl.co/index.html"><img src="Images/homearrow.jpg" alt="back arrow" class="arrow"></a>-->
+  <div class="page_logo">
+	<a href="https://home-page.resumebuilder.repl.co/"><img src="../Images/LOGO1.png" alt="icon" class="icon"></a>
+  </div>
+  <div class="line"></div>
+  <div class="page_container">
+    <div class="navbar">
+      <div class="navlinks">
+        <br><div class="navelements">
+	      <a href="profile.html" class="info"><img src="../Images/Icons_rb/Profile.png" width="25px"/>&nbsp;&nbsp;&nbsp;Profile<br></a>
+        </div>
+        <div class="navelements">
+        <a href="education.html" class="education"><img src="../Images/Icons_rb/Education.png" width="25px"/>&nbsp;&nbsp;&nbsp;Education<br></a>
+        </div>
+        <div class="navelements">
+        <a href="work_experience.html" class="work"><img src="../Images/Icons_rb/Work_Experience.png" width="25px"/>&nbsp;&nbsp;&nbsp;Work Experience<br></a>
+        </div>
+        <div class="navelements">
+        <a href="skills.html" class="skills"><img src="../Images/Icons_rb/Skills.png" width="25px"/>&nbsp;&nbsp;&nbsp;Skills</a>
+        </div>
+        <div class="navelements">
+        <a href="projects.html" class="projects"><img src="../Images/Icons_rb/Projects.png" width="25px"/>&nbsp;&nbsp;&nbsp;Projects<br></a>
+        </div>
+        <div class="navelements">
+        <a href="awards.html" class="awards"><img src="../Images/Icons_rb/Awards.png" width="25px"/>&nbsp;&nbsp;&nbsp;Awards</a>
+       `</div>
+        <div class="navline"></div>
+      </div>
+    </div>
+    <div class="vert_line"></div>
+    <div class="form">
+      <div class="headline">What work experience do you want to include?</div>
+      <p class="desc">
+        We suggest including work experience from the last 10 - 15 years, giving importance to the ones most relevant to your major.
+      </p>
+	    <form>
+        <div class="textBoxes">
+         <div class="Work_exp" id='add'>
+		      <label for="Work_exp"><b>Work Experience:</b></label><br>
+           <textarea style="width:35vw; height:13vh;" id="Work_exp" name="Work_exp"></textarea><br>
+          </div>
+         </div>
+         <div class="add">
+          <input type="button" class="addbutton" value="Add more work experience" onclick="appendRow()"/>
+         </div>
+         <div class="back">
+          <button>Back</button>
+         </div>
+         <div class="continue">
+          <button class="cont">Continue</button>
+         </div>
+       </form>
+      </div>
+      </form>
+  </div>
+  <script src="jquery.js" type="text/javascript"></script> 
+  <script type="text/javascript"> 
+    var x=1
+    function appendRow()
+    {
+     var d = document.getElementById('add');
+     d.innerHTML += "<textarea id='tst"+ x++ +"'></textarea><br >";
+    }
+    $(document).ready(function() {
+      $(window).keydown(function(event){
+        if(event.target.tagName != 'TEXTAREA') {
+          if(event.keyCode == 13) {
+            event.preventDefault();
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>

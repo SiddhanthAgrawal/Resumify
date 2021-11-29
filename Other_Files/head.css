@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Sacramento&display=swap');
+.icons
+{
+  background-image: linear-gradient(to bottom, 	hsla(194, 100%, 46%, 0.486),#ffffff );
+}
+.image1
+{
+  position: relative;
+ top:490px;
+ left: 4.5%;
+ transition: opacity 1s, transform .2s;
+ animation-name: move1_5;
+  animation-duration: 3s;
+  filter: brightness(65%);
+}
+.image2
+{
+  position: relative;
+  top: 440px;
+  left:2.25%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move2_4;
+  animation-duration: 2s;
+  z-index: 1;
+  filter: brightness(80%);
+}
+.image3
+{ 
+  position: relative;
+  top:390px;
+  transition: opacity 1s, transform .2s;
+  animation-name: move3;
+  animation-duration: 1s;
+  z-index:2;
+  filter: brightness(95%);
+}
+.image4
+{
+  position: relative;
+  top:440px;
+  right: 2.25%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move2_4;
+  animation-duration: 2s;
+  z-index: 1;
+  filter: brightness(80%);
+}
+.image5
+{
+  position: relative;
+  top: 490px;
+  right: 4.5%;
+  transition: opacity 1s, transform .2s;
+  animation-name: move1_5;
+  animation-duration: 3s;
+  filter: brightness(65%);
+ 
+}
+.image1 .image2 .image3 .image4 .image5
+{
+transition: opacity 2s ease-in-out;
+}
+.image1:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+.image2:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+.image3:hover
+{
+transform: scale(1.25);
+z-index: 3;
+filter: brightness(100%);
+}
+.image4:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+.image5:hover
+{
+transform: scale(1.25);
+z-index:3;
+filter: brightness(100%);
+}
+@keyframes move1_5
+{
+  0%{top:0px;}
+  100%{top:490px;}
+}
+@keyframes move2_4
+{
+  0%{top:0px;}
+  100%{top:440;}
+}
+@keyframes move3
+{
+0%{top:0px;}
+100%{top:390px;}
+}
+.click
+{
+  font-style: cursive;
+  font-family: 'Varela Round';
+  font-size: 30px;
+  color: #00b4ec;
+  position: relative;
+  transition: all 2s; 
+top:350px;
+border: 2px solid #4863a0;
+border-radius: 10px;
+background-color: #ffffff;
+}
+.click:hover
+{
+  transform: scale(1.05);
+  background-color: #110675;
+  transition-duration: 1s;
+  color:#ffffff;
+}
+.icon4
+{
+  position: absolute;
+  float:left;
+  left:52.5%;
+  top: 12%;
+}
+.icon4desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left:58%;
+  top:15%;
+}
+.icon1
+{
+  position: absolute;
+  float:left;
+  left:51.75%;
+  top: 20.5%;
+}
+.icon1desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left:58%;
+  top:23.5%;
+}
+.icon2
+{
+  position: absolute;
+  float:left;
+  left:53%;
+  top: 30.5%;
+}
+.icon2desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left:58%;
+  top:32.25%;
+}
+.icon3
+{
+  position: absolute;
+  float:left;
+  left:53%;
+  top: 40%;
+}
+.icon3desc
+{
+  font-size:20px;
+  font-family:'Josefin Slab';
+  position:absolute;
+  left:58%;
+  top:41%;
+}
+.name
+{
+  position: absolute;
+  font-size:60px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Sacramento';
+  animation: type 4s steps(70, end); 
+  left: 17%;
+}
+.vision
+{
+  position: absolute;
+  font-size:30px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Josefin Slab';
+  top: 32%;
+  left:5%
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+  to {
+    width: 300px;
+  }
+}
+.line
+{
+  border-left: 3px double rgba(6, 44, 124, 0.493);
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 11%;
+}
